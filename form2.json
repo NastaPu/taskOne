@@ -1,0 +1,52 @@
+﻿{
+	"form": {
+		"name": "two",
+		"items": [
+			{
+				"type": "filler",
+				"message": "<h2>Письмо.</h2>"
+			},
+			{
+				"type": "text",
+				"name": "name",
+				"placeholder": "",
+				"required": true,
+				"value": "",
+				"label": "ФИО:",
+				"class": "",
+				"disabled":  false
+			},
+			{
+				"type": "text",
+				"name": "tel",
+				"placeholder": "",
+				"required": true,
+				"value": "",
+				"label": "Телефон:",
+				"class": "",
+				"disabled": false
+			},
+			{
+				"type": "text",
+				"name": "email",
+				"placeholder": "",
+				"required": true,
+				"value": "",
+				"label": "Email:",
+				"class": "",
+				"disabled": false
+			},
+			{
+				"type": "filler",
+				"message": "<p>Какой напиток предпочитаете во время презентации?</p>",
+				"class": ""
+			},
+			{
+				"type": "button",
+				"text": "Отправить",
+				"class": ""
+			}
+		],
+		"postmessage": "<p>Благодарим Вас за проявленный интерес, в течении рабочего дня с Вами свяжется наш сотрудник.</p>"
+	}
+}

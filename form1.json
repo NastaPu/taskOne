@@ -1,0 +1,47 @@
+﻿{
+	"form": {
+		"name": "one",
+		"items": [
+			{
+				"type": "filler",
+				"message": "<h2>Письмо.</h2>"
+			},
+			{
+				"type": "text",
+				"name": "email",
+				"placeholder": "текст",
+				"required": false,
+				"value": "123",
+				"label": "Email:",
+				"class": "jk",
+				"disabled": false
+			},
+			{
+				"type": "textarea",
+				"name": "message",
+				"placeholder": "Какой то текст",
+				"required": true,
+				"value": "",
+				"label": "Ваше сообщение:",
+				"class": "elblock",
+				"disabled": false
+			},
+			{
+				"type": "checkbox",
+				"name": "checkbox",
+				"checked": false,
+				"placeholder": "текст",
+				"required": true,
+				"label": "Заказать демонстрацию",
+				"class": "",
+				"disabled": false
+			},
+			{
+				"type": "button",
+				"text": "Отправить",
+				"class": ""
+			}
+		],
+		"postmessage": "<p>Благодарим Вас за проявленный интерес, в течении рабочего дня с Вами свяжется наш сотрудник.</p>"
+	}
+}
